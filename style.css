@@ -23,14 +23,10 @@
 }
 .photo {
 }
-hr {
-    border: none;
-    border-bottom: 1px dashed black;
-    color: #fff;
-    background-color: #fff;
-    height: 1px;
-    width: 100%;
+hr{
+    border: 1px solid black;
 }
+
 .nameDetails {
     padding-left: 236px;
 }
