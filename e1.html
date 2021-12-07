@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        
         <title>NDC</title>
         <style>
+            .first {
+    text-align: center;
+}
+
+.second {
+    margin-left: 800px;
+}
+
+.rectangle {
+    margin-right: 258px;
+    width: 299px;
+    height: 165px;
+    background: white;
+    border: 3px solid black;
+    /* margin-left: 772px;
+    margin-top: -5px; */
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 210px;
+}
+.photo {
+}
+hr{
+    border: 1px solid black;
+}
+
+.nameDetails {
+    padding-left: 236px;
+}
+
+
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
             
           }
-          th, td {
+          .table2 th,td {
             padding: 15px;
             
           }
+          .table3 th, td {
+            padding: 5px;
+            
+          }
+         
         </style>
     </head>
     <body>
@@ -32,29 +71,29 @@
                 Information</p>
             <div class="nameDetails" style="display: flex;">1.
 
-                <div style="margin:0px 30px;height:76px; width:10%; border:
+                <div style="margin:0px 30px;height:70px; width:10%; border:
                     1px solid
                     black; text-align: center;">Rank <hr style="border:none;
                         border-bottom: 1px solid black;
                         padding-top:
                         18px;" /></div>
 
-                <div style="margin:0px 30px; height:76px; width:10%;
+                <div style="margin:0px 15px; height:70px; width:15%;
                     border:
                     1px solid
                     black; text-align: center;">Service Number <br />
                     (Military/Civil) <hr style="border:none;
                         border-bottom: 1px solid black;" /></div>
-                <div style="margin:0px 30px; height:76px; width:10%;
+                <div style="margin:0px 15px; height:70px; width:15%;
                     border:
                     1px solid
                     black; text-align: center;">Service (Army/ <br /> Navy/Air
                     force) <hr style="border:none;
                         border-bottom: 1px solid black;" /> </div>
-                <div style="margin:0px 30px;height:76px; width:10%;
+                <div style="margin:0px 15px;height:70px; width:10%;
                     border:
                     1px solid
-                    black; text-align: center;">Bacth Course<br />
+                    black; text-align: center;">Bacth/Course<br />
                     Number <hr style="border:none;
                         border-bottom: 1px solid black;" /></div>
                 <div style="border: 1px solid black; width: 148px; height:
@@ -67,29 +106,29 @@
         <div class="nameDetails">
             <div style="display: flex; margin-bottom: 20px;">2.
 
-                <div style="margin:0px 30px; height:76px; width:50%;
+                <div style="margin:0px 30px; height:55px; width:29%;
                     border:
                     1px solid
                     black; text-align: center;">Name in Capital (As in Service
                     List) <hr style="border:none;
                         border-bottom: 1px solid black;" /></div>
-                <div style="margin:0px 30px; height:76px; width:16%;
+                <div style="margin:0px 15px; height:55px; width:30%;
                     border:
                     1px solid
-                    black; text-align: center;">Short Name <br>
+                    black; text-align: center;">Short Name 
                     (As Nameplate) <hr style="border:none;
                         border-bottom: 1px solid black;" /></div>
 
             </div>
 
         </div>
-        <br>
+       
          <!-- end2 -->
          <!-- start 3 -->
          <div class="nameDetails">
             <div style="display: flex; margin-bottom: 20px;">3.
 
-                <div style="margin:0px 30px; height:76px; width:62%;
+                <div style="margin:0px 30px; height:55px; width:64%;
                     border:
                     1px solid
                     black; text-align: center;">Name in Bengali (As in Service
@@ -103,12 +142,12 @@
          <!-- end 3 -->
         <!-- Staring-4 -->
         <div class="nameDetails">
-            <div style="display: flex; margin-bottom: 20px;">4.
+            <div style="display: flex; margin-bottom: 20px; ">4.
                 <div style="margin:0px 30px">
-                    <table style="width: 280px;">
+                    <table class="table2 " style="width: 280px;">
                         <tr>
-                            <th colspan="3">
-                                Date of Comission/ <br> Service Entry
+                            <th colspan="3" >
+                                Date of Comission/  Service Entry
                             </th>
                         </tr>
                         <tr>
@@ -124,10 +163,10 @@
                     </table>
                 </div>
                 <div style="margin:0px 20px;">
-                    <table style="width:300px; text-align: center;">
+                    <table class="table2 " style="width:298px; text-align: center;">
                         <tr>
                             <th colspan="3">
-                                Date of Promotion to Present/ <br> Rank
+                                Date of Promotion to Present/ Rank
                             </th>
                         </tr>
                         <tr>
@@ -150,7 +189,7 @@
         <div class="nameDetails">
             <div style="display: flex; margin-bottom: 20px;">5.
                 <div style="margin:0px 30px">
-                    <table>
+                    <table class="table2 ">
                         <tr>
                             <th colspan="3">
                                 Date of Birth
@@ -168,31 +207,57 @@
                         </tr>
                     </table>
                 </div>
-                <div style="margin:0px 20px; height:130px; width:170px;
+                <div style="margin:0px 15px; height:113px; width:170px;
                 border:
                 1px solid
                 black; text-align: center;">Nationality<hr style="border:none;
                     border-bottom: 1px solid black;" /></div>
 
-              <div style="margin:0px 20px; height:130px; width:170px;
+              <div style="margin:0px 20px; height:113px; width:170px;
               border:
               1px solid
               black; text-align: center;">Blood Group<hr style="border:none;
                   border-bottom: 1px solid black;" /></div>
                
-                <div style="margin:0px 20px; height:130px; width:170px;
+                <div style="margin:0px 20px; height:113px; width:170px;
                 border:
                 1px solid
                 black; text-align: center;">Height in CM<hr style="border:none;
                     border-bottom: 1px solid black;" /></div>
             </div>
         </div>
-        
+        <!-- end 5 -->
+        <!-- start6 -->
+        <div class="nameDetails">
+            <div style="display: flex; margin-bottom: 20px;">6.
+
+                <div style="margin:0px 30px; height:55px; width:18%;
+                    border:
+                    1px solid
+                    black; text-align: center;">Religion <hr style="border:none;
+                        border-bottom: 1px solid black;" /></div>
+                <div style="margin:0px 15px; height:55px; width:18%;
+                    border:
+                    1px solid
+                    black; text-align: center;">Marital Status <br>
+                    <hr style="border:none;
+                        border-bottom: 1px solid black;" /></div>
+                         <div style="margin:0px 15px; height:55px; width:21%;
+                         border:
+                         1px solid
+                         black; text-align: center;">Date of Marriage<br>
+                          <hr style="border:none;
+                             border-bottom: 1px solid black;" /></div>
+
+            </div>
+
+        </div>
+        <!-- end 6 -->
         <!-- starting-7 -->
         <div class="nameDetails">
             <div style="display: flex; margin-bottom: 20px;">7.
                 <div style="margin:0px 30px">
-                    <table style="width: 350px; text-align: left;">
+                    <table class="table3" style="width: 380px; text-align: left; padding: 4px;">
                         <tr>
                             <th colspan="2">
                                 Permanent Address
@@ -209,46 +274,42 @@
 
                         </tr>
                         <tr>
-                            <td>HouseNo/Village</td>
+                            <td>Sector/Police Station</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>Road no/Union</td>
+                            <td>District/ Province</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>HouseNo/Village</td>
+                            <td>Telephone no (Land Phone)</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>Road no/Union</td>
+                            <td>Mobile Phone No 1 <br> (Used in Own Country)</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>HouseNo/Village</td>
+                            <td>Mobile Phone No 2 <br> (Used in Bangladesh)</td>
                             <td></td>
 
                         </tr>
-                        <tr>
-                            <td>Road no/Union</td>
-                            <td></td>
-
-                        </tr>
+                       
                     </table>
                 </div>
                 <div style="margin:0px 30px">
-                    <table style="width: 350px; text-align: left;">
+                    <table class="table3" style="width: 370px; text-align: left; ">
                         <tr>
                             <th colspan="2">
                                 Permanent Address
                             </th>
                         </tr>
                         <tr>
-                            <td style="width: 150px">HouseNo/Village</td>
+                            <td style="width: 150px" >HouseNo/Village</td>
                             <td></td>
 
                         </tr>
@@ -258,32 +319,27 @@
 
                         </tr>
                         <tr>
-                            <td>HouseNo/Village</td>
+                            <td>Sector/Police Station</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>Road no/Union</td>
+                            <td>District/ Province</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>HouseNo/Village</td>
+                            <td>Telephone no (Land Phone)</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>Road no/Union</td>
+                            <td>Mobile Phone No 1 <br> (Used in Own Country)</td>
                             <td></td>
 
                         </tr>
                         <tr>
-                            <td>HouseNo/Village</td>
-                            <td></td>
-
-                        </tr>
-                        <tr>
-                            <td>Road no/Union</td>
+                            <td>Mobile Phone No 2 <br> (Used in Bangladesh)</td>
                             <td></td>
 
                         </tr>
@@ -293,7 +349,63 @@
             </div>
         </div>
 
+       <!-- end 7 -->
+       <!-- start 8 -->
+       <div class="nameDetails">
+        <div style="display: flex; margin-bottom: 20px;">8.
 
+            <div style="margin:0px 30px; height:55px; width:19%;
+                border:
+                1px solid
+                black; text-align: center;">e-mail-Address<hr style="border:none;
+                    border-bottom: 1px solid black;" /></div>
+           
+        </div>
+
+    </div>
+       <!-- end 8 -->
+       <!-- start 9 -->
+       <div class="nameDetails">
+        <div style="display: flex; margin-bottom: 20px;">9.
+            <div style="margin:0px 30px">
+                <table class="table3" style="width: 810px; text-align: left;">
+                    <tr>
+                        <th colspan="2">
+                           Contact Address at Home in case of Emergency
+                        </th>
+                    </tr>
+                    <tr>
+                        <td style="width: 350px">Name</td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>Relation</td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>Telephone no with District/ Province Code</td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>Mobile Phone No 1</td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <td>Mobile Phone No 2</td>
+                        <td></td>
+
+                    </tr>
+                </table>
+            </div>
+           
+
+        </div>
+    </div>
+       <!-- end9 -->
 
         <!-- footer -->
         <p class="first">E-1</p>
